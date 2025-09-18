@@ -21,8 +21,8 @@ export const Contact = () => {
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "01066181942",
-      href: "tel:+2001066181942",
+      value: "0150055949",
+      href: "tel:+200150055949",
       description: "Available during business hours"
     },
     {
