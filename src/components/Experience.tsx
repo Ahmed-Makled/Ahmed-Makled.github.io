@@ -11,10 +11,10 @@ export const Experience = () => {
       location: "Cairo, Egypt",
       period: "January 2025 - Present",
       type: "Full-time",
-      description: "Leading a frontend team, <focusi></focusi>ng on scalable architecture using Angular. Spearheading development of enterprise-level applications and customer feedback management systems.",
+      description: "Leading a frontend team, focusing on scalable architecture using Angular. Spearheading development of the main Roboost system and new enterprise projects including 'Sira' - a comprehensive customer feedback management platform.",
       achievements: [
-        "Leading frontend team development, focusing on scalable architecture",
-        "Developed 'Sira' - comprehensive customer feedback and survey management platform with analytics dashboards",
+        "Leading frontend team development, focusing on scalable architecture for Roboost system and new projects",
+        "Developed 'Sira' - a new comprehensive customer feedback and survey management platform alongside the main Roboost system, featuring analytics dashboards",
         "Implemented multi-role authentication, real-time data visualization, and automated reporting systems",
         "Reduced page load time by 60% through performance optimization strategies",
         "Enhanced code quality by implementing code reviews and best practices",
