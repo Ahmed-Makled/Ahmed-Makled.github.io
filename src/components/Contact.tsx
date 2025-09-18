@@ -28,7 +28,7 @@ export const Contact = () => {
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Location", 
-      value: "El Mansoura, Ad Daqahliyah, Egypt",
+      value: "Cairo, Egypt",
       href: "#",
       description: "Open to remote opportunities"
     },
