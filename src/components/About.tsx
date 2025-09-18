@@ -47,8 +47,9 @@ export const About = () => {
               </h3>
               <p className="text-muted-foreground leading-relaxed">
                 With extensive experience at Roboost, Queen Tech Solutions, and Mostaql, I've led teams 
-                in developing cutting-edge web applications. My passion lies in creating clean, efficient 
-                code that not only meets business requirements but exceeds performance expectations.
+                in developing cutting-edge web applications. Based in El Mansoura, Ad Daqahliyah, Egypt, 
+                my passion lies in creating clean, efficient code that not only meets business requirements 
+                but exceeds performance expectations.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 I believe in the power of modern web technologies to solve real-world problems. 

@@ -3,7 +3,7 @@ import { Hero } from "../components/Hero";
 import { About } from "../components/About";
 import { Experience } from "../components/Experience";
 import { Skills } from "../components/Skills";
-import { Projects } from "../components/Projects";
+import { Community } from "../components/Community";
 import { Certifications } from "../components/Certifications";
 import { Contact } from "../components/Contact";
 import { Navigation } from "../components/Navigation";
@@ -32,7 +32,7 @@ const Index = () => {
         <About />
         <Experience />
         <Skills />
-        <Projects />
+        <Community />
         <Certifications />
         <Contact />
       </main>

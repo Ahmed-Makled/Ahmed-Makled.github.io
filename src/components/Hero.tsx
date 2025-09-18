@@ -173,7 +173,7 @@ export const Hero = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a
-              href="https://github.com/ahmedmakled"
+              href="https://github.com/ahmed-makled"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110"

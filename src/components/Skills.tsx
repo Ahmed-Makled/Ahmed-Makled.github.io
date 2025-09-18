@@ -7,19 +7,19 @@ export const Skills = () => {
     {
       title: "Frontend Frameworks",
       icon: <Code2 className="w-5 h-5" />,
-      skills: ["Angular", "React", "Vue.js", "TypeScript", "JavaScript (ES6+)"],
+      skills: ["Angular", "React", "TypeScript", "JavaScript (ES6+)"],
       color: "from-blue-500 to-cyan-500"
     },
     {
       title: "State Management", 
       icon: <Settings className="w-5 h-5" />,
-      skills: ["NgRx", "RxJS", "Redux", "Akita", "Zustand"],
+      skills: ["NgRx", "RxJS", "Redux"],
       color: "from-purple-500 to-pink-500"
     },
     {
       title: "Mapping & Visualization",
       icon: <Globe className="w-5 h-5" />,
-      skills: ["Mapbox GL JS", "Leaflet.js", "D3.js", "Chart.js", "Three.js"],
+      skills: ["Mapbox GL JS", "Leaflet.js", "Chart.js"],
       color: "from-green-500 to-emerald-500"
     },
     {
@@ -31,13 +31,13 @@ export const Skills = () => {
     {
       title: "Performance & Tools",
       icon: <Zap className="w-5 h-5" />,
-      skills: ["Webpack", "Vite", "Jest", "Cypress", "Lighthouse Optimization"],
+      skills: ["Webpack", "Vite", "Jest", "Lighthouse Optimization"],
       color: "from-yellow-500 to-orange-500"
     },
     {
       title: "Backend & Database",
       icon: <Database className="w-5 h-5" />,
-      skills: ["Node.js", "PostgreSQL", "MongoDB", "REST APIs", "GraphQL"],
+      skills: ["Node.js", "PostgreSQL", "MongoDB", "REST APIs"],
       color: "from-indigo-500 to-purple-500"
     }
   ];

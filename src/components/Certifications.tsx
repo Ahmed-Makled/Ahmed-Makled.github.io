@@ -7,65 +7,67 @@ export const Certifications = () => {
   const education = [
     {
       institution: "Information Technology Institute (ITI)",
-      program: "Advanced Web Development Program",
-      period: "2018 - 2019",
+      program: "Intensive Training Program - Front-end and Cross Platform Development",
+      period: "September 2021 - December 2021",
       type: "Professional Training",
-      description: "Intensive 9-month program covering full-stack web development with focus on Angular and modern JavaScript frameworks.",
-      skills: ["Angular", "Node.js", "MongoDB", "RESTful APIs"],
+      description: "Intensive 3-month program covering modern frontend development and cross-platform mobile development with focus on practical skills and industry best practices.",
+      skills: ["Frontend Development", "Cross Platform Development", "JavaScript", "Mobile Development"],
       status: "Completed"
     },
     {
       institution: "National Telecommunication Institute (NTI)",
-      program: "Frontend Development Specialization",
-      period: "2019",
-      type: "Specialization",
-      description: "Specialized training in advanced frontend technologies, responsive design, and performance optimization techniques.",
-      skills: ["Advanced CSS", "JavaScript ES6+", "Performance Optimization", "Accessibility"],
+      program: "Web Development using Node JS and Angular",
+      period: "June 2021 - July 2021",
+      type: "NanoDegree",
+      description: "Connect-intensive NanoDegree program focusing on full-stack web development using Node.js backend and Angular frontend technologies.",
+      skills: ["Node.js", "Angular", "Full-Stack Development", "RESTful APIs"],
+      status: "Completed"
+    },
+    {
+      institution: "National Telecommunication Institute (NTI)", 
+      program: "Web Development using PHP, MySQL and Laravel",
+      period: "August 2021 - September 2021",
+      type: "NanoDegree",
+      description: "Connect-intensive NanoDegree program covering server-side development with PHP, database management with MySQL, and modern web applications using Laravel framework.",
+      skills: ["PHP", "MySQL", "Laravel", "Database Management"],
       status: "Completed"
     },
     {
       institution: "Udacity",
-      program: "Frontend Web Developer Nanodegree",
-      period: "2018",
-      type: "Online Certification",
-      description: "Comprehensive program covering modern frontend development practices, project-based learning, and industry best practices.",
-      skills: ["React", "JavaScript", "Web APIs", "Testing"],
-      status: "Certified"
+      program: "Front End Development Professional",
+      period: "2021",
+      type: "Nanodegree Program",
+      description: "Comprehensive nanodegree program covering modern frontend development practices, responsive design, and JavaScript frameworks with project-based learning approach.",
+      skills: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
+      status: "Completed"
+    },
+    {
+      institution: "National Telecommunication Institute (NTI)",
+      program: "Web Design",
+      period: "February 2021 - March 2021", 
+      type: "NanoDegree",
+      description: "Connect-intensive NanoDegree program focusing on web design principles, user interface design, and modern web design techniques.",
+      skills: ["Web Design", "UI Design", "Design Principles", "User Experience"],
+      status: "Completed"
     }
   ];
 
   const certifications = [
     {
-      title: "Angular Expert Certification",
-      issuer: "Google Developers",
-      issued: "2023",
-      credentialId: "ANG-EXP-2023-001",
-      type: "Professional",
-      description: "Advanced certification demonstrating expertise in Angular framework, including advanced patterns and best practices."
-    },
-    {
-      title: "TypeScript Advanced Developer",
-      issuer: "Microsoft",
-      issued: "2022", 
-      credentialId: "TS-ADV-2022-456",
-      type: "Technical",
-      description: "Certification in advanced TypeScript patterns, decorators, and enterprise application development."
-    },
-    {
-      title: "AWS Certified Developer Associate",
-      issuer: "Amazon Web Services",
-      issued: "2022",
-      credentialId: "AWS-DEV-2022-789",
-      type: "Cloud",
-      description: "Certification in AWS services, serverless architecture, and cloud-based application development."
-    },
-    {
-      title: "Performance Optimization Specialist",
-      issuer: "Web Performance Working Group",
+      title: "Certificate Freelancing",
+      issuer: "Professional Development",
       issued: "2021",
-      credentialId: "PERF-SPEC-2021-123",
-      type: "Specialized",
-      description: "Advanced certification in web performance optimization, Core Web Vitals, and application monitoring."
+      credentialId: "FREELANCE-CERT-2021", 
+      type: "Professional",
+      description: "Professional certification in freelancing best practices, client management, project delivery, and independent work methodologies."
+    },
+    {
+      title: "JavaScript",
+      issuer: "Web Development Authority",
+      issued: "2021", 
+      credentialId: "JS-CERT-2021",
+      type: "Technical",
+      description: "Certification demonstrating proficiency in JavaScript programming language, including modern ES6+ features and web application development."
     }
   ];
 
@@ -82,16 +84,14 @@ export const Certifications = () => {
           </p>
         </div>
 
-        {/* Education Section */}
-        <div className="mb-16">
-          <div className="flex items-center gap-3 mb-8">
-            <BookOpen className="w-6 h-6 text-primary" />
-            <h3 className="text-2xl font-semibold text-foreground">Professional Training</h3>
-          </div>
+        {/* Education & Professional Development Section */}
+        <div>
+     
           
           <div className="grid md:grid-cols-1 gap-6 max-w-4xl mx-auto">
+            {/* Education Programs */}
             {education.map((edu, index) => (
-              <Card key={index} className="card-professional">
+              <Card key={`edu-${index}`} className="card-professional">
                 <CardHeader>
                   <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
                     <div>
@@ -128,25 +128,19 @@ export const Certifications = () => {
                 </CardContent>
               </Card>
             ))}
-          </div>
-        </div>
 
-        {/* Certifications Section */}
-        <div>
-          <div className="flex items-center gap-3 mb-8">
-            <Award className="w-6 h-6 text-primary" />
-            <h3 className="text-2xl font-semibold text-foreground">Professional Certifications</h3>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-6">
+            {/* Professional Certifications */}
             {certifications.map((cert, index) => (
-              <Card key={index} className="card-glow group">
+              <Card key={`cert-${index}`} className="card-glow group">
                 <CardHeader>
                   <div className="flex items-start justify-between gap-4">
                     <div className="flex-1">
-                      <h4 className="text-lg font-bold text-foreground mb-2">
-                        {cert.title}
-                      </h4>
+                      <div className="flex items-center gap-2 mb-2">
+                        <Award className="w-5 h-5 text-primary" />
+                        <h4 className="text-lg font-bold text-foreground">
+                          {cert.title}
+                        </h4>
+                      </div>
                       <p className="text-primary font-semibold">{cert.issuer}</p>
                     </div>
                     <div className="text-right">
@@ -163,14 +157,10 @@ export const Certifications = () => {
                     {cert.description}
                   </p>
                   
-                  <div className="flex items-center justify-between pt-4 border-t border-border">
+                  <div className="pt-4 border-t border-border">
                     <span className="text-xs text-muted-foreground">
                       ID: {cert.credentialId}
                     </span>
-                    <Button variant="ghost" size="sm" className="h-8 px-3">
-                      <ExternalLink className="w-3 h-3 mr-1" />
-                      Verify
-                    </Button>
                   </div>
                 </CardContent>
               </Card>

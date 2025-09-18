@@ -14,29 +14,29 @@ export const Contact = () => {
     {
       icon: <Mail className="w-5 h-5" />,
       label: "Email",
-      value: "ahmed.makled@example.com",
-      href: "mailto:ahmed.makled@example.com",
+      value: "ahmed.makled@live.com",
+      href: "mailto:ahmed.makled@live.com",
       description: "Best way to reach me"
     },
     {
       icon: <Phone className="w-5 h-5" />,
       label: "Phone",
-      value: "+20 123 456 7890",
-      href: "tel:+201234567890",
+      value: "01066181942",
+      href: "tel:+2001066181942",
       description: "Available during business hours"
     },
     {
       icon: <MapPin className="w-5 h-5" />,
       label: "Location", 
-      value: "Cairo, Egypt",
+      value: "El Mansoura, Ad Daqahliyah, Egypt",
       href: "#",
       description: "Open to remote opportunities"
     },
     {
       icon: <Linkedin className="w-5 h-5" />,
       label: "LinkedIn",
-      value: "linkedin.com/in/ahmedmakled",
-      href: "https://linkedin.com/in/ahmedmakled",
+      value: "www.linkedin.com/in/ahmedmakled",
+      href: "https://www.linkedin.com/in/ahmedmakled",
       description: "Professional network"
     }
   ];
@@ -111,7 +111,7 @@ export const Contact = () => {
               <h4 className="font-semibold text-foreground mb-4">Follow Me</h4>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com/ahmedmakled"
+                  href="https://github.com/ahmed-makled"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-muted hover:bg-primary/10 border border-border hover:border-primary/30 rounded-lg flex items-center justify-center text-muted-foreground hover:text-primary transition-all duration-300"
@@ -119,7 +119,7 @@ export const Contact = () => {
                   <Github className="w-5 h-5" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/ahmedmakled"
+                  href="https://www.linkedin.com/in/ahmedmakled"
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-muted hover:bg-primary/10 border border-border hover:border-primary/30 rounded-lg flex items-center justify-center text-muted-foreground hover:text-primary transition-all duration-300"
@@ -227,7 +227,7 @@ export const Contact = () => {
         {/* Footer */}
         <div className="text-center mt-16 pt-8 border-t border-border">
           <p className="text-muted-foreground">
-            © 2024 Ahmed Makled. Built with React, TypeScript, and Tailwind CSS.
+            © 2026 | Eng Ahmed Makled.
           </p>
         </div>
       </div>
